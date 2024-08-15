@@ -38,7 +38,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "webmock", "~> 1.22.0"
 
   spec.add_runtime_dependency "httpclient", "~> 2.8.0"
-  spec.add_runtime_dependency "httpi", "~> 2.4"
+  spec.add_runtime_dependency "httpi"
   spec.add_runtime_dependency "mail"
   spec.add_runtime_dependency "nokogiri", ">= 1.8.4"
   spec.add_runtime_dependency "nori"
